@@ -9,6 +9,7 @@ import { useColorScheme } from "react-native";
 import Home from "./Home";
 import MainApp from "./components/mainapp/mainapp";
 import Settings from "./components/settings/Settings";
+import Instructions from "./components/instructions/Instructions";
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +26,7 @@ export default function App() {
         />
         <Stack.Screen name="MainApp" component={MainApp} />
         <Stack.Screen name="Settings" component={Settings} />
+        <Stack.Screen name="Instructions" component = {Instructions} /> 
       </Stack.Navigator>
     </NavigationContainer>
   );

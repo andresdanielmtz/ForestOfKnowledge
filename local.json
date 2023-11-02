@@ -1,0 +1,40 @@
+{
+    "db" : [
+    {
+        "id": 1, 
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "location": [1230, 1230]
+    },
+    {
+        "id": 2, 
+        "name": "Ivysaur",
+        "type": "Grass",
+        "location": [1230, 1230]
+    },
+    {
+        "id": 3, 
+        "name": "Venusaur",
+        "type": "Grass",
+        "location": [1230, 1230]
+    },
+    {
+        "id": 4, 
+        "name": "Charmander",
+        "type": "Fire",
+        "location": [1230, 1230]
+    },
+    {
+        "id": 5, 
+        "name": "Charmeleon",
+        "type": "Fire",
+        "location": [1230, 1230]
+    },
+    {
+        "id": 6, 
+        "name": "Charizard",
+        "type": "Fire",
+        "location": [120, 23]
+    }
+]
+}
