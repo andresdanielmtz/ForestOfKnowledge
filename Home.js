@@ -16,29 +16,57 @@ export default function Home() {
 
   return (
     <View style={style.container}>
-      <View
-        id="test"
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: colors.card,
-        }}
-      >
-        <Text style={style.title}> Forest of Knowledge </Text>
-        <Text style={style.subtitle}> Let's learn about where we live. </Text>
-        <View style={styles.startMenu}>
-          <Button title="Start" onPress={() => navigation.navigate("MainApp")} />
+      <View >
+        <View
+          id="test"
+          style={{
+            flex: 1,
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: colors.card,
+          }}
+        >
+          <Text style={style.title}> Forest of Knowledge </Text>
+          <Text style={style.subtitle}> Let's learn about where we live. </Text>
+          <View style={styles.startMenu}>
+            <Button
+              title="Start"
+              onPress={() => navigation.navigate("MainApp")}
+            />
+            <Button
+              title="Settings"
+              onPress={() => navigation.navigate("Settings")}
+            />
+            <Button
+              title="Instructions"
+              onPress={() => navigation.navigate("Instructions")}
+            />
+          </View>
+        </View>
+      </View>
+
+      <View style={homeStyle.container}>
+        <View style={homeStyle.settingsLocation}>
           <Button
-            title="Settings"
-            onPress={() => navigation.navigate("Settings")}
-          />
-          <Button
-            title="Instructions"
-            onPress={() => navigation.navigate("Instructions")}
+            title="Based"
+            color="#00BAD4"
+            onPress={() => console.log("Woah")}
           />
         </View>
       </View>
     </View>
   );
 }
+
+const homeStyle = StyleSheet.create({
+  settingsContainer: {
+    flex: 1,
+    padding: 20,
+  },
+
+  settingsLocation: {
+    alignSelf: "flex-end", // Aligns itself to the right of the flex container
+    marginBottom: 100, // Moves the button up from the bottom
+    marginRight: 20, // Moves the button in from the right
+  },
+});
