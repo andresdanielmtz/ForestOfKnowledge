@@ -1,6 +1,19 @@
 # Forest of Knowledge
 ## Trees of Knowledge 2.0 - Now powered by React Native
 
+> The project is in the earliest stages of development and therefore hasn't been properly deployed. 
+
+### To-Do List 
+
+[] Connect to Firebase Database
+[] Use the REST API in order to store and retrieve information from said Database
+[] Parse links currently hosted by the REST API. 
+[] Create QR codes based on said links. 
+[] Add 3D Models 
+
+
+### Installation 
+
 To run this project use 
 
 ```

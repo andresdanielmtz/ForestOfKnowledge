@@ -2,6 +2,7 @@ import { Text, View, Button, StyleSheet, TouchableOpacity } from "react-native";
 
 
 export default function AddButton() {
+
   return (
     <View style={style.container}>
       <TouchableOpacity style={style.button} onPress={() => console.log('Woah')}>
