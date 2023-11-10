@@ -6,10 +6,10 @@ export default function InstructionsList()
 
     const instructions = [
         'Step 1: Open the app',
-        'Step 2: Log in with your credentials',
-        'Step 3: Navigate to the dashboard',
-        'Step 4: Enjoy the features of the app',
-        'Step 5: Log out when done'
+        'Step 2: Press Start to see your current registered plants',
+        'Step 3: Look around your campus and search for those QR codes!',
+        'Step 4: Register them using your camera.',
+        'Step 5: Have fun!',
       ];
 
         // Render each item in the list

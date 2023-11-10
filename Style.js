@@ -1,9 +1,17 @@
 import { StyleSheet } from "react-native";
 
+/* 
+ * #BEC5AD
+ * #A4B494
+ * #519872
+ * #3B5249
+ * #34252F
+ * */
+
 export const style = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#34252F',
         alignItems: 'center',
         justifyContent: 'center',
       },
@@ -12,11 +20,13 @@ export const style = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         justifyContent: 'center',
+        color: "#BEC5AD", 
       },
     
       subtitle:{ 
         fontSize: 15, 
         justifyContent: 'center',
+        color: "#BEC5AD", 
       },
 
       container_dark:{ 
@@ -29,11 +39,9 @@ export const style = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         justifyContent: 'center',
-        color: '#fff',
       },
       subtitle_dark: {
         fontSize: 15, 
         justifyContent: 'center',
-        color: '#fff',
       }
 });

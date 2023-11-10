@@ -1,16 +1,14 @@
 import { Text, View, Button, StyleSheet } from "react-native";
-import { useNavigation, useTheme } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { style } from "./Style.js";
 
 export default function Home() {
   const navigation = useNavigation();
-  const { colors } = useTheme();
 
   const styles = StyleSheet.create({
     startMenu: {
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: colors.card,
     },
   });
 
@@ -23,7 +21,7 @@ export default function Home() {
             flex: 1,
             justifyContent: "center",
             alignItems: "center",
-            backgroundColor: colors.card,
+
           }}
         >
           <Text style={style.title}> Forest of Knowledge </Text>
@@ -31,14 +29,17 @@ export default function Home() {
           <View style={styles.startMenu}>
             <Button
               title="Start"
+              color="#519872"
               onPress={() => navigation.navigate("MainApp")}
             />
             <Button
               title="Settings"
+              color="#519872"
               onPress={() => navigation.navigate("Settings")}
             />
             <Button
               title="Instructions"
+              color="#519872"
               onPress={() => navigation.navigate("Instructions")}
             />
           </View>
@@ -69,4 +70,6 @@ const homeStyle = StyleSheet.create({
     marginBottom: 100, // Moves the button up from the bottom
     marginRight: 20, // Moves the button in from the right
   },
+
+   
 });
