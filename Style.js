@@ -6,7 +6,7 @@ import { StyleSheet } from "react-native";
  * #519872
  * #3B5249
  * #34252F
- * */
+ */
 
 export const style = StyleSheet.create({
     container: {

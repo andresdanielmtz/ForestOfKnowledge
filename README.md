@@ -5,12 +5,11 @@
 
 ### To-Do List 
 
-[] Connect to Firebase Database
-[] Use the REST API in order to store and retrieve information from said Database
-[] Parse links currently hosted by the REST API. 
-[] Create QR codes based on said links. 
-[] Add 3D Models 
-
+- Connect to Firebase Database
+- Use the REST API in order to store and retrieve information from said Database
+- Parse links currently hosted by the REST API. 
+- Create QR codes based on said links. 
+- Add 3D Models 
 
 ### Installation 
 

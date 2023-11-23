@@ -51,7 +51,7 @@ export default function Home() {
           <Button
             title="Based"
             color="#00BAD4"
-            onPress={() => console.log("Woah")}
+            onPress={() => console.log("Testing Button, please remove me if you see me!")}
           />
         </View>
       </View>
